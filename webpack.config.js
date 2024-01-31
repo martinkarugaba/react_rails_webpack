@@ -17,8 +17,8 @@ module.exports = {
     ],
   },
   output: {
-    filename: "[name].js",
-    sourceMapFilename: "[name].js.map",
+    filename: "[name]_bundle.js",
+    sourceMapFilename: "[name].map",
     path: path.resolve(__dirname, "app/assets/builds"),
   },
   plugins: [
